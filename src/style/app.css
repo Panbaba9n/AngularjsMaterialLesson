@@ -1,0 +1,59 @@
+/* styles in src/style directory are applied to the whole page */
+body {
+  // background: #0147A7;
+  // color: #fff;
+}
+
+a {
+  color: #03A9F4;
+}
+
+app {
+  min-height: 100%;
+}
+
+md-toolbar h3 {
+  margin: auto;
+  font-weight: 500;
+}
+
+md-list-item > button {
+  width: 100%;
+  text-align: left !important;
+}
+
+#content {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 5px;
+}
+
+.avatar {
+  position: relative;
+  width: 128px;
+  height: 128px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  display: inline-block;
+  overflow: hidden;
+  margin: 0;
+  vertical-align: middle;
+  zoom: 0.70;
+  transform: translateZ(0);
+  -webkit-transform: scale(0.70);
+  -moz-transform: scale(0.70);
+  background-color: lightgreen;
+}
+
+main {
+  padding: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  display: block;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.8em;
+}
